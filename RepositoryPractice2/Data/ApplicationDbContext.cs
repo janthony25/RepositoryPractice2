@@ -12,5 +12,6 @@ namespace RepositoryPractice2.Data
 
         public DbSet<tblCustomer> tblCustomer { get; set; }
         public DbSet<tblIssue> tblIssue { get; set; }
+
     }
 }
