@@ -4,7 +4,7 @@ using RepositoryPractice2.Models;
 
 namespace RepositoryPractice2.Repository
 {
-    public class CustomerRepository
+    public class CustomerRepository : ICustomerRepository
     {
         private readonly ApplicationDbContext _db;
         private DbSet<tblCustomer> CustomerEntity;
